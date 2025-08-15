@@ -44,7 +44,7 @@ function OTPGenerator() {
 
   return (
     <div className="container">
-      <h1 id="otp-title">OTP Generator</h1>
+      <h1 id="otp-title">OTP Generator🔐</h1>
       <h2 id="otp-display">{otp}</h2>
       
       {timerText && <p id="otp-timer">{timerText}</p>}
@@ -60,5 +60,6 @@ function OTPGenerator() {
 }
 
 export { OTPGenerator };
+
 
 
